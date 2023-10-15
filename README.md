@@ -9,5 +9,5 @@ Minimal required version is 1.21.0
 Then run the command:
 
 ```
-> go run github.com/Exce11ent22/game_of_life@master
+> go run github.com/Exce11ent22/game_of_life@latest
 ```
