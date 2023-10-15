@@ -93,6 +93,7 @@ func main() {
 	ebiten.SetWindowSize(600, 600)
 	ebiten.SetWindowTitle("Game of life!")
 	ebiten.SetFullscreen(game.fullscreen)
+	ebiten.SetVsyncEnabled(true)
 
 	if err := ebiten.RunGame(game); err != nil {
 		log.Fatal(err)
